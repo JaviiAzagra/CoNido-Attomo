@@ -1,0 +1,24 @@
+.header {
+  background-image: url("../../../public/assets/header/backgroundimg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 743px;
+  padding-top: 1em;
+
+  &__nav{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  &__img {
+    margin: 0;
+    padding: 0.2em 1em;
+    height: 3em;
+  }
+
+  &__logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+  }
+}

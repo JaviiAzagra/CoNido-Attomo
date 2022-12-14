@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  &__links {
+    margin: 1em;
+    color: black;
+    text-decoration: none;
+    color: white;
+  }
+
+  &__links:hover {
+    text-decoration: underline;
+  }
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+    padding: 13px;
+}

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans&display=swap');
+
+.App {
+  text-align: center;
+}
+
+
+.button-reserve{
+  background: none;
+  border-radius: 16px;
+  border: 1px solid white;
+  color: white;
+  width: 100px;
+  height: 30px;
+}
+
+.button-contact{
+  background-color: #A6BF9D;
+  border-radius: 16px;
+  border: none;
+  color: white;
+  width: 100px;
+  height: 30px;
+}
+
+h1{
+  font-size: 70px;
+  color: #A6BF9D;
+  font-family: 'Expletus Sans', cursive;
+}
+
+h3{
+  font-family: 'Expletus Sans', cursive;
+}
+p{
+
+  font-size: 20px;
+}

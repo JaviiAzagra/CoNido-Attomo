@@ -1,0 +1,37 @@
+.ubicaciones {
+  &__citys {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 2em;
+  }
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+
+  &__title {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    color: white;
+    font-size: 40px;
+    transform: translate(-50%, -50%);
+  }
+
+  &__button {
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: #A6BF9D;
+    border: 1px solid white;
+    border-radius: 16px;
+    width: 85px;
+    height: 35px;
+    font-size: 16px;
+  }
+}

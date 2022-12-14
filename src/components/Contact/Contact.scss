@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+.contact{
+    margin: 0;
+    padding: 0;
+
+    &__container{
+        display: flex;
+        flex-direction: row;
+        gap: 80px;
+        justify-content: center;
+
+        &--img{
+            background-image: url("../../../public/assets/contact/imagen.svg");
+            width: 322px;
+            height: 583px;
+        }
+        &--img:hover{
+            background-image: url("../../../public/assets/contact/imagenhover.svg");
+            width: 322px;
+            height: 583px;
+        }
+
+        &--form{
+            width: 673px;
+            height: 583px;
+            border: 1px solid #7D9077;
+            border-radius: 21px;
+            background-color: #f0f4ef;
+            line-height : 0.5px;
+
+
+
+            input{
+                border: 1px solid #7D9077;
+                border-radius: 95px;
+                width: 589px;
+                height: 46px;
+                background: none;
+            }
+
+            p{
+                color: #7d9077;
+                text-align: start;
+                padding-left: 50px;
+                font-family: 'Inter', sans-serif;
+            }
+
+            h3{
+                color: #7D9077;
+                font-size: 35px;
+                padding: 10px;
+                font-family: 'Inter', sans-serif;
+            }
+
+            textarea{
+                width: 589px;
+                height: 114px;
+                border: 1px solid #7D9077;
+                border-radius: 14px;
+                background: none;  
+            }
+
+            button{
+                width: 589px;
+                height: 46px;
+                background-color: #7D9077;
+                color: white;
+                font-size: 22px;
+                font-family: 'Inter', sans-serif;
+                border-radius: 14px;
+                border: none;
+            }
+
+            .button{
+                padding-top: 20px;
+            }
+
+            button:hover{
+                background-color: white;
+                border:1px solid #7D9077;
+                color: #7D9077;
+            }
+        }
+    }
+
+
+
+}

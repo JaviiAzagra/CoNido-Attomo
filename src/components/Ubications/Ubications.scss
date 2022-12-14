@@ -9,7 +9,6 @@
 
 .container {
   position: relative;
-  display: inline-block;
   text-align: center;
 
   &__title {
@@ -21,6 +20,10 @@
     transform: translate(-50%, -50%);
   }
 
+  &__top:hover{
+    opacity: 0;
+  }
+
   &__button {
     position: absolute;
     top: 350px;
@@ -28,10 +31,27 @@
     transform: translate(-50%, -50%);
     background-color: white;
     color: #A6BF9D;
-    border: 1px solid white;
-    border-radius: 16px;
-    width: 85px;
-    height: 35px;
-    font-size: 16px;
+    border: none;
+    border-radius: 61px;
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
   }
+
+  &__button:hover{
+    background-color: #A6BF9D;
+    color: white;
+    border: none;
+  }
+}
+
+
+.container__barcelona:hover{
+  background-image: url("../../../public/assets/ubications/barcelona2.svg");
+}
+.container__madrid:hover{
+  background-image: url("../../../public/assets/ubications/madrid2.svg");
+}
+.container__bilbao:hover{
+  background-image: url("../../../public/assets/ubications/bilbao2.svg");
 }

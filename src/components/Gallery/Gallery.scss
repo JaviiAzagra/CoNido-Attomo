@@ -1,0 +1,14 @@
+.gallery{
+    &__images{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    &__ellipse{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        padding-top: 60px;
+    }
+}

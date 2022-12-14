@@ -8,8 +8,12 @@ const Apartaments = () => {
         <div className='search'>
           <input type="search" placeholder='Madrid'/>
           <input type="search" placeholder='Home Type'/>
-          <button> Clear All</button>
+          <button className='clear-button'>Clear All</button>
         </div>
+        <div className='apartments'>
+
+        </div>
+        <button className='more-button'>Ver mas</button>
     </div>
   )
 }

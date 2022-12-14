@@ -1,0 +1,97 @@
+.instalations {
+  &__info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 340px;
+
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  display: flex;
+
+  &__card {
+    width: 304px;
+    border: 1px solid rgb(183, 182, 182);
+    border-radius: 20px;
+    text-align: start;
+    background-image: url("../../../public/assets/instalations/imagen.svg");
+    background-repeat: no-repeat;
+
+    &--img {
+      background-image: url("../../../public/assets/instalations/imagen.svg");
+      background-repeat: no-repeat;
+      width: 305px;
+      height: 200px;
+    }
+
+    &--img2 {
+      background-image: url("../../../public/assets/instalations/imagen.svg");
+      background-repeat: no-repeat;
+      width: 305px;
+      height: 200px;
+    }
+
+    &--img3 {
+      background-image: url("../../../public/assets/instalations/imagen.svg");
+      background-repeat: no-repeat;
+      width: 305px;
+      height: 200px;
+    }
+
+    &--img4 {
+      background-image: url("../../../public/assets/instalations/imagen.svg");
+      background-repeat: no-repeat;
+      width: 305px;
+      height: 200px;
+    }
+
+    &--img:hover {
+      background-image: url("../../../public/assets/instalations/imagenhover.svg");
+      background-repeat: no-repeat;
+      width: 305px;
+      height: 200px;
+      z-index: 2;
+    }
+
+    &--info {
+      display: flex;
+      flex-direction: column;
+      padding: 15px;
+      line-height: 20px;
+
+      h4 {
+        color: #a6bf9d;
+        font-size: 18px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+
+  &__card:hover {
+    background-color: #7d9077;
+    background-image: url("../../../public/assets/instalations/imagenhover.svg");
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+
+    h4 {
+      color: black;
+      font-size: 18px;
+    }
+  }
+}
+
+.text {
+  line-height: 10px;
+  padding-bottom: 2em;
+}

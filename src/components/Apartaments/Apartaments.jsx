@@ -22,9 +22,10 @@ const Apartaments = () => {
       </div>
 
       <div className="apartments">
+
           <div className="apartments__card">
-            <div className="apartments__card--img">
-              <img src="/assets/apartments/imagen.svg" alt="" />
+            <div className="apartments__card--img atocha">
+              <img src="/assets/apartments/imagen.svg" alt="imagen" />
             </div>
             <div className="apartments__card--info">
               <div className="apartments__card--info--location">
@@ -63,8 +64,8 @@ const Apartaments = () => {
           </div>
 
           <div className="apartments__card">
-            <div className="apartments__card--img">
-              <img src="/assets/apartments/imagen.svg" alt="" />
+            <div className="apartments__card--img carranza">
+              <img src="/assets/apartments/carranza.svg" alt="" />
             </div>
             <div className="apartments__card--info">
               <div className="apartments__card--info--location">
@@ -103,8 +104,8 @@ const Apartaments = () => {
           </div>
 
           <div className="apartments__card">
-            <div className="apartments__card--img">
-              <img src="/assets/apartments/imagen.svg" alt="" />
+            <div className="apartments__card--img cedaceros">
+              <img src="/assets/apartments/cedaceros.svg" alt="" />
             </div>
             <div className="apartments__card--info">
               <div className="apartments__card--info--location">
@@ -143,8 +144,8 @@ const Apartaments = () => {
           </div>
 
         <div className="apartments__card">
-          <div className="apartments__card--img">
-            <img src="/assets/apartments/imagen.svg" alt="" />
+          <div className="apartments__card--img costanilla">
+            <img src="/assets/apartments/costanilla.svg" alt="" />
           </div>
           <div className="apartments__card--info">
             <div>
@@ -188,8 +189,8 @@ const Apartaments = () => {
         </div>
 
         <div className="apartments__card">
-          <div className="apartments__card--img">
-            <img src="/assets/apartments/imagen.svg" alt="" />
+          <div className="apartments__card--img colegiata">
+            <img src="/assets/apartments/colegiata.svg" alt="" />
           </div>
           <div className="apartments__card--info">
             <div className="apartments__card--info--location">
@@ -228,8 +229,8 @@ const Apartaments = () => {
         </div>
 
         <div className="apartments__card">
-          <div className="apartments__card--img">
-            <img src="/assets/apartments/imagen.svg" alt="" />
+          <div className="apartments__card--img quijote">
+            <img src="/assets/apartments/quijote.svg" alt="" />
           </div>
           <div className="apartments__card--info">
             <div className="apartments__card--info--location">

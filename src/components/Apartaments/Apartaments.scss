@@ -5,32 +5,34 @@
   justify-content: space-evenly;
   align-items: center;
 
-  &__inputs{
+  &__inputs {
     display: flex;
     gap: 40px;
   }
 
-  &__switch{
+  &__switch {
     display: flex;
     align-items: center;
     gap: 10px;
 
-    &--img{
-      border: solid 1px #4D4D4D;
-      background-color: #E5EFE9;
+    &--img {
+      border: solid 1px #4d4d4d;
+      background-color: #e5efe9;
       border-radius: 100px;
       height: 15px;
       width: 32px;
     }
-    
-    p{
+
+    p {
       font-size: 14px;
-      color: #7D9077;
+      color: #7d9077;
     }
 
-    img{
+    img {
       display: flex;
       padding: 1px;
+      position: absolute;
+      z-index: 1;
     }
   }
 
@@ -73,13 +75,13 @@
 }
 
 .apartments {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: 100%;
-    padding-top: 40px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 40px;
 
   &__card {
     display: flex;
@@ -99,6 +101,8 @@
       img {
         border-top-left-radius: 21px;
         border-bottom-left-radius: 21px;
+        position: relative;
+        z-index: 2;
       }
     }
 
@@ -107,7 +111,7 @@
       line-height: 0px;
       padding-top: 13px;
 
-      &--location{
+      &--location {
         display: flex;
         flex-direction: row;
         gap: 10px;
@@ -209,7 +213,38 @@
   }
 }
 
-
-.street{
+.street {
   min-height: 30px;
 }
+
+.atocha:hover {
+  background-image: url("../../../public/assets/apartments/atochahover.svg");
+  border-top-left-radius: 21px;
+  border-bottom-left-radius: 21px;
+}
+.carranza:hover {
+  background-image: url("../../../public/assets/apartments/carranzahover.svg");
+  border-top-left-radius: 21px;
+  border-bottom-left-radius: 21px;
+}
+.cedaceros:hover {
+  background-image: url("../../../public/assets/apartments/cedaceroshover.svg");
+  border-top-left-radius: 21px;
+  border-bottom-left-radius: 21px;
+}
+.costanilla:hover {
+  background-image: url("../../../public/assets/apartments/costanillahover.svg");
+  border-top-left-radius: 21px;
+  border-bottom-left-radius: 21px;
+}
+.colegiata:hover {
+  background-image: url("../../../public/assets/apartments/colegiatahover.svg");
+  border-top-left-radius: 21px;
+  border-bottom-left-radius: 21px;
+}
+.quijote:hover {
+  background-image: url("../../../public/assets/apartments/quijotehover.svg");
+  border-top-left-radius: 21px;
+  border-bottom-left-radius: 21px;
+}
+

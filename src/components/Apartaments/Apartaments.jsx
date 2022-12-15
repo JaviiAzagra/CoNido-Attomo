@@ -12,14 +12,181 @@ const Apartaments = () => {
         <img src="/assets/apartments/search.svg" alt="search" />
       </div>
       <div className="apartments">
+          <div className="apartments__card">
+            <div className="apartments__card--img">
+              <img src="/assets/apartments/imagen.svg" alt="" />
+            </div>
+            <div className="apartments__card--info">
+              <div className="apartments__card--info--location">
+                <p>Habitación privada -- Madrid, Centro </p>
+                <img src="/assets/apartments/like.svg" alt="like" />
+              </div>
+              <h4>Calle Atocha 66 3º Izq</h4>
+              <div className="apartments__card--info--more">
+                <div className="apartments__card--info--more--beds">
+                  <img src="/assets/apartments/bed.svg" alt="bed" />
+                  <p>8 habs</p>
+                </div>
+
+                <div className="apartments__card--info--more--map">
+                  <img src="/assets/apartments/map.svg" alt="map" />
+                  <p>9 sqm.</p>
+                </div>
+
+                <div className="apartments__card--info--more--stairs">
+                  <img src="/assets/apartments/stairs.svg" alt="stairs" />
+                  <p>3er Piso</p>
+                </div>
+              </div>
+              <div className="apartments__card--info--plus">
+                <div className="apartments__card--info--plus--avaible">
+                  <p>Disponible desde</p>
+                  <span>2 Dic 2022</span>
+                  <p></p>
+                </div>
+                <div className="apartments__card--info--plus--price">
+                  <p>€ 600</p>
+                  <span>/mes</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="apartments__card">
+            <div className="apartments__card--img">
+              <img src="/assets/apartments/imagen.svg" alt="" />
+            </div>
+            <div className="apartments__card--info">
+              <div className="apartments__card--info--location">
+                <p>Habitación privada -- Madrid, Centro </p>
+                <img src="/assets/apartments/like.svg" alt="like" />
+              </div>
+              <h4>Calle Carranza 10</h4>
+              <div className="apartments__card--info--more">
+                <div className="apartments__card--info--more--beds">
+                  <img src="/assets/apartments/bed.svg" alt="bed" />
+                  <p>5 habs</p>
+                </div>
+
+                <div className="apartments__card--info--more--map">
+                  <img src="/assets/apartments/map.svg" alt="map" />
+                  <p>11 sqm.</p>
+                </div>
+
+                <div className="apartments__card--info--more--stairs">
+                  <img src="/assets/apartments/stairs.svg" alt="stairs" />
+                  <p>4er Piso</p>
+                </div>
+              </div>
+              <div className="apartments__card--info--plus">
+                <div className="apartments__card--info--plus--avaible">
+                  <p>Disponible desde</p>
+                  <span>2 Dic 2022</span>
+                  <p></p>
+                </div>
+                <div className="apartments__card--info--plus--price">
+                  <p>€ 750</p>
+                  <span>/mes</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="apartments__card">
+            <div className="apartments__card--img">
+              <img src="/assets/apartments/imagen.svg" alt="" />
+            </div>
+            <div className="apartments__card--info">
+              <div className="apartments__card--info--location">
+                <p>Habitación privada -- Madrid, Centro </p>
+                <img src="/assets/apartments/like.svg" alt="like" />
+              </div>
+              <h4>Calle Cedaceros 8 1º</h4>
+              <div className="apartments__card--info--more">
+                <div className="apartments__card--info--more--beds">
+                  <img src="/assets/apartments/bed.svg" alt="bed" />
+                  <p>8 habs</p>
+                </div>
+
+                <div className="apartments__card--info--more--map">
+                  <img src="/assets/apartments/map.svg" alt="map" />
+                  <p>9 sqm.</p>
+                </div>
+
+                <div className="apartments__card--info--more--stairs">
+                  <img src="/assets/apartments/stairs.svg" alt="stairs" />
+                  <p>3er Piso</p>
+                </div>
+              </div>
+              <div className="apartments__card--info--plus">
+                <div className="apartments__card--info--plus--avaible">
+                  <p>Disponible desde</p>
+                  <span>2 Dic 2022</span>
+                  <p></p>
+                </div>
+                <div className="apartments__card--info--plus--price">
+                  <p>€ 600</p>
+                  <span>/mes</span>
+                </div>
+              </div>
+            </div>
+          </div>
 
         <div className="apartments__card">
           <div className="apartments__card--img">
             <img src="/assets/apartments/imagen.svg" alt="" />
           </div>
           <div className="apartments__card--info">
-            <p>Habitación privada -- Madrid, Centro</p>
-            <h4>Calle Atocha 66 3º Izq</h4>
+            <div>
+              <div className="apartments__card--info--location">
+                <p>Habitación privada -- Madrid, Centro </p>
+                <img src="/assets/apartments/like.svg" alt="like" />
+              </div>
+              <div className="street">
+              <h4>Calle Costanilla de</h4>
+              <h4>Santiago 2 1º Der</h4>
+              </div>
+            </div>
+            <div className="apartments__card--info--more">
+              <div className="apartments__card--info--more--beds">
+                <img src="/assets/apartments/bed.svg" alt="bed" />
+                <p>5 habs</p>
+              </div>
+
+              <div className="apartments__card--info--more--map">
+                <img src="/assets/apartments/map.svg" alt="map" />
+                <p>11 sqm.</p>
+              </div>
+
+              <div className="apartments__card--info--more--stairs">
+                <img src="/assets/apartments/stairs.svg" alt="stairs" />
+                <p>4er Piso</p>
+              </div>
+            </div>
+            <div className="apartments__card--info--plus">
+              <div className="apartments__card--info--plus--avaible">
+                <p>Disponible desde</p>
+                <span>2 Dic 2022</span>
+                <p></p>
+              </div>
+              <div className="apartments__card--info--plus--price">
+                <p>€ 750</p>
+                <span>/mes</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="apartments__card">
+          <div className="apartments__card--img">
+            <img src="/assets/apartments/imagen.svg" alt="" />
+          </div>
+          <div className="apartments__card--info">
+            <div className="apartments__card--info--location">
+              <p>Habitación privada -- Madrid, Centro </p>
+              <img src="/assets/apartments/like.svg" alt="like" />
+            </div>
+            <h4>Calle Colegiata 13 1º Der</h4>
             <div className="apartments__card--info--more">
               <div className="apartments__card--info--more--beds">
                 <img src="/assets/apartments/bed.svg" alt="bed" />
@@ -55,22 +222,25 @@ const Apartaments = () => {
             <img src="/assets/apartments/imagen.svg" alt="" />
           </div>
           <div className="apartments__card--info">
-            <p>Habitación privada -- Madrid, Centro</p>
-            <h4>Calle Atocha 66 3º Izq</h4>
+            <div className="apartments__card--info--location">
+              <p>Habitación privada -- Madrid, Centro </p>
+              <img src="/assets/apartments/like.svg" alt="like" />
+            </div>
+            <h4>Calle de Don Quijote 22</h4>
             <div className="apartments__card--info--more">
               <div className="apartments__card--info--more--beds">
                 <img src="/assets/apartments/bed.svg" alt="bed" />
-                <p>8 habs</p>
+                <p>5 habs</p>
               </div>
 
               <div className="apartments__card--info--more--map">
                 <img src="/assets/apartments/map.svg" alt="map" />
-                <p>9 sqm.</p>
+                <p>11 sqm.</p>
               </div>
 
               <div className="apartments__card--info--more--stairs">
                 <img src="/assets/apartments/stairs.svg" alt="stairs" />
-                <p>3er Piso</p>
+                <p>4er Piso</p>
               </div>
             </div>
             <div className="apartments__card--info--plus">
@@ -80,162 +250,12 @@ const Apartaments = () => {
                 <p></p>
               </div>
               <div className="apartments__card--info--plus--price">
-                <p>€ 600</p>
+                <p>€ 750</p>
                 <span>/mes</span>
               </div>
             </div>
           </div>
         </div>
-
-        <div className="apartments__card">
-          <div className="apartments__card--img">
-            <img src="/assets/apartments/imagen.svg" alt="" />
-          </div>
-          <div className="apartments__card--info">
-            <p>Habitación privada -- Madrid, Centro</p>
-            <h4>Calle Atocha 66 3º Izq</h4>
-            <div className="apartments__card--info--more">
-              <div className="apartments__card--info--more--beds">
-                <img src="/assets/apartments/bed.svg" alt="bed" />
-                <p>8 habs</p>
-              </div>
-
-              <div className="apartments__card--info--more--map">
-                <img src="/assets/apartments/map.svg" alt="map" />
-                <p>9 sqm.</p>
-              </div>
-
-              <div className="apartments__card--info--more--stairs">
-                <img src="/assets/apartments/stairs.svg" alt="stairs" />
-                <p>3er Piso</p>
-              </div>
-            </div>
-            <div className="apartments__card--info--plus">
-              <div className="apartments__card--info--plus--avaible">
-                <p>Disponible desde</p>
-                <span>2 Dic 2022</span>
-                <p></p>
-              </div>
-              <div className="apartments__card--info--plus--price">
-                <p>€ 600</p>
-                <span>/mes</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="apartments__card">
-          <div className="apartments__card--img">
-            <img src="/assets/apartments/imagen.svg" alt="" />
-          </div>
-          <div className="apartments__card--info">
-            <p>Habitación privada -- Madrid, Centro</p>
-            <h4>Calle Atocha 66 3º Izq</h4>
-            <div className="apartments__card--info--more">
-              <div className="apartments__card--info--more--beds">
-                <img src="/assets/apartments/bed.svg" alt="bed" />
-                <p>8 habs</p>
-              </div>
-
-              <div className="apartments__card--info--more--map">
-                <img src="/assets/apartments/map.svg" alt="map" />
-                <p>9 sqm.</p>
-              </div>
-
-              <div className="apartments__card--info--more--stairs">
-                <img src="/assets/apartments/stairs.svg" alt="stairs" />
-                <p>3er Piso</p>
-              </div>
-            </div>
-            <div className="apartments__card--info--plus">
-              <div className="apartments__card--info--plus--avaible">
-                <p>Disponible desde</p>
-                <span>2 Dic 2022</span>
-                <p></p>
-              </div>
-              <div className="apartments__card--info--plus--price">
-                <p>€ 600</p>
-                <span>/mes</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="apartments__card">
-          <div className="apartments__card--img">
-            <img src="/assets/apartments/imagen.svg" alt="" />
-          </div>
-          <div className="apartments__card--info">
-            <p>Habitación privada -- Madrid, Centro</p>
-            <h4>Calle Atocha 66 3º Izq</h4>
-            <div className="apartments__card--info--more">
-              <div className="apartments__card--info--more--beds">
-                <img src="/assets/apartments/bed.svg" alt="bed" />
-                <p>8 habs</p>
-              </div>
-
-              <div className="apartments__card--info--more--map">
-                <img src="/assets/apartments/map.svg" alt="map" />
-                <p>9 sqm.</p>
-              </div>
-
-              <div className="apartments__card--info--more--stairs">
-                <img src="/assets/apartments/stairs.svg" alt="stairs" />
-                <p>3er Piso</p>
-              </div>
-            </div>
-            <div className="apartments__card--info--plus">
-              <div className="apartments__card--info--plus--avaible">
-                <p>Disponible desde</p>
-                <span>2 Dic 2022</span>
-                <p></p>
-              </div>
-              <div className="apartments__card--info--plus--price">
-                <p>€ 600</p>
-                <span>/mes</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="apartments__card">
-          <div className="apartments__card--img">
-            <img src="/assets/apartments/imagen.svg" alt="" />
-          </div>
-          <div className="apartments__card--info">
-            <p>Habitación privada -- Madrid, Centro</p>
-            <h4>Calle Atocha 66 3º Izq</h4>
-            <div className="apartments__card--info--more">
-              <div className="apartments__card--info--more--beds">
-                <img src="/assets/apartments/bed.svg" alt="bed" />
-                <p>8 habs</p>
-              </div>
-
-              <div className="apartments__card--info--more--map">
-                <img src="/assets/apartments/map.svg" alt="map" />
-                <p>9 sqm.</p>
-              </div>
-
-              <div className="apartments__card--info--more--stairs">
-                <img src="/assets/apartments/stairs.svg" alt="stairs" />
-                <p>3er Piso</p>
-              </div>
-            </div>
-            <div className="apartments__card--info--plus">
-              <div className="apartments__card--info--plus--avaible">
-                <p>Disponible desde</p>
-                <span>2 Dic 2022</span>
-                <p></p>
-              </div>
-              <div className="apartments__card--info--plus--price">
-                <p>€ 600</p>
-                <span>/mes</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        
       </div>
       <button className="more-button">Ver mas</button>
     </div>

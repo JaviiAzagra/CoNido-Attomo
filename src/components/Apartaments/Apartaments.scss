@@ -76,7 +76,13 @@
     &--info {
       text-align: start;
       line-height: 0px;
-      padding-top: 20px;
+      padding-top: 13px;
+
+      &--location{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+      }
 
       p {
         color: #bdbdbd;
@@ -172,4 +178,9 @@
   &__card:hover {
     background-color: #d3dfce;
   }
+}
+
+
+.street{
+  min-height: 30px;
 }

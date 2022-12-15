@@ -16,6 +16,11 @@ const Header = () => {
           <button>Contáctanos</button>
           <button>Reserva Ya</button>
         </div>
+
+        <div className='header__vector'>
+          <img src="/assets/header/vector.svg" alt="vector" />
+          <img src="/assets/header/vector.svg" alt="vector" />
+        </div>
     </div>
   )
 }

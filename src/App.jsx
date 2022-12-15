@@ -6,13 +6,13 @@ import Gallery from './components/Gallery/Gallery';
 import Header from './components/Header/Header';
 import Instalations from './components/Instalations/Instalations';
 import Line from './components/Line/Line';
-import Navbar from './components/Navbar/Navbar';
 import Ubications from './components/Ubications/Ubications';
+import Home from './pages/Home';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      {/* <Header/>
       <Ubications/>
       <Apartaments/>
       <Line/>
@@ -21,7 +21,8 @@ function App() {
       <Gallery/>
       <Line/>
       <Contact/>
-      <Footer/>
+      <Footer/> */}
+      <Home/>
     </div>
   );
 }

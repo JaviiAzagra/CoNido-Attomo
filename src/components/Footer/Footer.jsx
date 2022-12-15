@@ -40,7 +40,7 @@ const Footer = () => {
             <div className='footer__social--legal'>
                 <p>Aviso legal | Protección de datos | Cookies</p>
                 <p>Powered by <span>Attomo</span></p>
-                <p>2022 Alfa Real</p>
+                <p>© 2022 Alfa Real</p>
             </div>
         </div>
 

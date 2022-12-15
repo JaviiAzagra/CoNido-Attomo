@@ -2,8 +2,37 @@
 
 .search {
   display: flex;
-  justify-content: center;
-  gap: 40px;
+  justify-content: space-evenly;
+  align-items: center;
+
+  &__inputs{
+    display: flex;
+    gap: 40px;
+  }
+
+  &__switch{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    &--img{
+      border: solid 1px #4D4D4D;
+      background-color: #E5EFE9;
+      border-radius: 100px;
+      height: 15px;
+      width: 32px;
+    }
+    
+    p{
+      font-size: 14px;
+      color: #7D9077;
+    }
+
+    img{
+      display: flex;
+      padding: 1px;
+    }
+  }
 
   input {
     background-color: #f0f4ef;

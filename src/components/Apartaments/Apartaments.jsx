@@ -6,11 +6,21 @@ const Apartaments = () => {
     <div>
       <h1>Apartamentos</h1>
       <div className="search">
-        <input type="search" placeholder="Madrid" />
-        <input type="search" placeholder="Home Type" />
-        <button className="clear-button">Clear All</button>
-        <img src="/assets/apartments/search.svg" alt="search" />
+        <div className="search__inputs">
+          <input type="search" placeholder="Madrid" />
+          <input type="search" placeholder="Home Type" />
+          <button className="clear-button">Clear All</button>
+          <img src="/assets/apartments/search.svg" alt="search" />
+        </div>
+
+        <div className="search__switch">
+          <div className="search__switch--img">
+            <img src="/assets/apartments/switch.svg" alt="" />
+          </div>
+          <p>Show map</p>
+        </div>
       </div>
+
       <div className="apartments">
           <div className="apartments__card">
             <div className="apartments__card--img">

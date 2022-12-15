@@ -4,8 +4,10 @@ import "./Gallery.scss";
 const Gallery = () => {
   return (
     <div className='gallery'>
+      <div className='gallery__header'>
         <h1>Galería</h1>
         <p>Entra y elige la que mejor se adapte a tus necesidades y a tus sueños.</p>
+      </div>
         <div className='gallery__images'>
           <img src="/assets/gallery/imagen2.svg" alt="imagen2" />
           <img src="/assets/gallery/imagen3.svg" alt="imagen3" />

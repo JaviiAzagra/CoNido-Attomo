@@ -40,8 +40,8 @@
     background-color: #f0f4ef;
     color: #7d9077;
     border: solid 1px #f0f4ef;
-    width: 300px;
-    height: 40px;
+    width: 280px;
+    height: 43px;
     border-radius: 61px;
     padding-left: 0.5em;
   }
@@ -49,12 +49,20 @@
   input::placeholder {
     color: #7d9077;
     padding-left: 0.5em;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
   }
 
   .clear-button {
     background-color: #f8f8f8;
     border: none;
-    color: #a6bf9d;
+    color: #7D9077;
+    font-family: "Inter", sans-serif;
+    font-size: 12.5px;
+    font-weight: 500;
+    width: 83px;
+    height: 42px;
   }
 }
 
@@ -63,9 +71,11 @@
   border: none;
   border-radius: 61px;
   color: white;
-  width: 100px;
-  height: 40px;
-  font-size: 18px;
+  width: 131px;
+  height: 54px;
+  font-size: 27px;
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
 }
 
 .more-button:hover {
@@ -79,9 +89,10 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  width: 100%;
-  padding-top: 40px;
+  justify-content: center;
+  padding-top: 100px;
+  gap: 100px;
+  padding-bottom: 80px;
 
   &__card {
     display: flex;
@@ -91,8 +102,7 @@
     border: none;
     border-radius: 21px;
     background-color: #f0f4ef;
-    gap: 35px;
-    margin-bottom: 80px;
+    gap: 20px;
 
     &--img {
       display: flex;

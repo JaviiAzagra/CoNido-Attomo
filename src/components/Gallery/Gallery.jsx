@@ -7,9 +7,9 @@ const Gallery = () => {
         <h1>Galería</h1>
         <p>Entra y elige la que mejor se adapte a tus necesidades y a tus sueños.</p>
         <div className='gallery__images'>
-          <img src="/assets/gallery/imagen.svg" alt="imagen" />
           <img src="/assets/gallery/imagen2.svg" alt="imagen2" />
           <img src="/assets/gallery/imagen3.svg" alt="imagen3" />
+          <img src="/assets/gallery/imagen.svg" alt="imagen" />
           <img src="/assets/gallery/imagen4.svg" alt="imagen4" />
           <img src="/assets/gallery/imagen5.svg" alt="imagen5" />
         </div>

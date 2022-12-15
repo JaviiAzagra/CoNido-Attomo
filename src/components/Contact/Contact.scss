@@ -3,6 +3,7 @@
 .contact{
     margin: 0;
     padding: 0;
+    padding-bottom: 6em;
 
     &__container{
         display: flex;
@@ -14,6 +15,13 @@
             background-image: url("../../../public/assets/contact/imagen.svg");
             width: 322px;
             height: 583px;
+
+            p{
+                color: white;
+                font-size: 18px;
+                text-align: start;
+                padding: 30px;
+            }
         }
         &--img:hover{
             background-image: url("../../../public/assets/contact/imagenhover.svg");
@@ -58,7 +66,8 @@
                 height: 114px;
                 border: 1px solid #7D9077;
                 border-radius: 14px;
-                background: none;  
+                background: none;
+                resize: none;  
             }
 
             button{

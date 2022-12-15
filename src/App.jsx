@@ -1,6 +1,7 @@
 import './App.scss';
 import Apartaments from './components/Apartaments/Apartaments';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 import Gallery from './components/Gallery/Gallery';
 import Header from './components/Header/Header';
 import Instalations from './components/Instalations/Instalations';
@@ -20,6 +21,7 @@ function App() {
       <Gallery/>
       <Line/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }

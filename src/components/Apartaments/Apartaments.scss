@@ -1,45 +1,175 @@
-.search{
-    display: flex;
-    justify-content: center;
-    gap: 40px;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-    input{
-        background-color: #f0f4ef;
-        color: #7D9077;
-        border: solid 1px #f0f4ef;
-        width: 300px;
-        height: 40px;
-        border-radius: 61px;
-        padding-left: 0.5em;
-    }
+.search {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 
-    input::placeholder{
-        color: #7D9077;
-        padding-left: 0.5em;
-    }
-
-    .clear-button{
-     background-color: #f8f8f8;
-     border: none;
-     color: #A6BF9D;
-     
-    }
-
-    
-}
-
-.more-button{
-    background-color: #A6BF9D;
-    border: none;
-    border-radius: 61px;
-    color: white;
-    width: 100px;
+  input {
+    background-color: #f0f4ef;
+    color: #7d9077;
+    border: solid 1px #f0f4ef;
+    width: 300px;
     height: 40px;
-    font-size: 18px;
+    border-radius: 61px;
+    padding-left: 0.5em;
+  }
+
+  input::placeholder {
+    color: #7d9077;
+    padding-left: 0.5em;
+  }
+
+  .clear-button {
+    background-color: #f8f8f8;
+    border: none;
+    color: #a6bf9d;
+  }
 }
 
-.more-button:hover{
-    background-color: white;
-    border: 1px solid #A6BF9D;
-    color: #A6BF9D;
+.more-button {
+  background-color: #a6bf9d;
+  border: none;
+  border-radius: 61px;
+  color: white;
+  width: 100px;
+  height: 40px;
+  font-size: 18px;
+}
+
+.more-button:hover {
+  background-color: white;
+  border: 1px solid #a6bf9d;
+  color: #a6bf9d;
+}
+
+.apartments {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 40px;
+
+  &__card {
+    display: flex;
+    flex-direction: row;
+    width: 511px;
+    height: 242px;
+    border: none;
+    border-radius: 21px;
+    background-color: #f0f4ef;
+    gap: 35px;
+    margin-bottom: 80px;
+
+    &--img {
+      display: flex;
+      gap: 20px;
+
+      img {
+        border-top-left-radius: 21px;
+        border-bottom-left-radius: 21px;
+      }
+    }
+
+    &--info {
+      text-align: start;
+      line-height: 0px;
+      padding-top: 20px;
+
+      p {
+        color: #bdbdbd;
+        font-size: 14px;
+        font-family: "Inter", sans-serif;
+      }
+
+      &--more {
+        display: flex;
+        gap: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        &--beds {
+          display: flex;
+          gap: 6px;
+
+          p {
+            font-family: "Inter", sans-serif;
+            color: #7d9077;
+            font-size: 15px;
+          }
+        }
+        &--map {
+          display: flex;
+          gap: 6px;
+
+          p {
+            font-family: "Inter", sans-serif;
+            color: #7d9077;
+            font-size: 15px;
+          }
+        }
+
+        &--stairs {
+          display: flex;
+          gap: 6px;
+
+          p {
+            font-family: "Inter", sans-serif;
+            color: #7d9077;
+            font-size: 15px;
+          }
+        }
+      }
+
+      &--plus {
+        display: flex;
+        justify-content: space-between;
+
+        &--avaible {
+          line-height: 10px;
+
+          p {
+            color: #bdbdbd;
+            font-family: "Inter", sans-serif;
+            font-size: 15px;
+          }
+
+          span {
+            color: #7d9077;
+            font-size: 14px;
+            font-family: "Inter", sans-serif;
+          }
+        }
+
+        &--price {
+          line-height: 10px;
+
+          p {
+            color: #7d9077;
+            font-family: "Inter", sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+          }
+
+          span {
+            color: #616161;
+            font-size: 15px;
+            font-family: "Inter", sans-serif;
+          }
+        }
+      }
+    }
+
+    h4 {
+      color: #7d9077;
+      font-family: "Inter", sans-serif;
+      font-size: 22px;
+    }
+  }
+
+  &__card:hover {
+    background-color: #d3dfce;
+  }
 }

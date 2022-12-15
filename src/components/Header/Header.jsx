@@ -12,6 +12,10 @@ const Header = () => {
         <div className='header__logo'>
             <img src="/assets/header/logo.svg" alt="logo" />
         </div>
+        <div className='header__buttons'>
+          <button>Contáctanos</button>
+          <button>Reserva Ya</button>
+        </div>
     </div>
   )
 }

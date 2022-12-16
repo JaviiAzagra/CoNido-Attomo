@@ -7,26 +7,26 @@ const Footer = () => {
         <div className='footer__links'>
             <div className='footer__links--row'>
                 <h5>Locations</h5>
-                <p>Berlin</p>
-                <p>Barcelona</p>
-                <p>Madrid</p>
-                <p>Lisbon</p>
-                <p>Milan</p>
+                <a>Berlin</a>
+                <a>Barcelona</a>
+                <a>Madrid</a>
+                <a>Lisbon</a>
+                <a>Milan</a>
             </div>
             <div className='footer__links--row'>
                 <h5>Company</h5>
-                <p>About</p>
-                <p>Careers</p>
-                <p>Terms</p>
-                <p>Imprint</p>
-                <p>Privacy</p>
-                <p>Press</p>
+                <a>About</a>
+                <a>Careers</a>
+                <a>Terms</a>
+                <a>Imprint</a>
+                <a>Privacy</a>
+                <a>Press</a>
             </div>
 
             <div className='footer__links--row'>
                 <h5>Partnership</h5>
-                <p>Landlords</p>
-                <p>Corporates</p>
+                <a>Landlords</a>
+                <a>Corporates</a>
             </div>
         </div>
 

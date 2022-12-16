@@ -15,11 +15,12 @@
     max-width: 200px;
     gap: 45px;
 
-    p {
+    a {
       color: white;
       font-family: "Inter", sans-serif;
       font-size: 12px;
       font-weight: 100;
+      cursor: pointer;
     }
     h5 {
       color: white;
@@ -30,7 +31,7 @@
     &--row{
         display: flex;
         flex-direction: column;
-        line-height : 0.5px;
+        line-height : 24px;
     }
   }
 

@@ -50,6 +50,13 @@
     &--legal {
       color: white;
 
+      a{
+        font-family: "Inter", sans-serif;
+        font-size: 15px;
+        font-weight: 100;
+        cursor: pointer;
+      }
+
       span {
         font-weight: bold;
       }

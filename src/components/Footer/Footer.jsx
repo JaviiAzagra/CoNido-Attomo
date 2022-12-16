@@ -38,7 +38,9 @@ const Footer = () => {
                 <a><img src="/assets/footer/linkedin.svg" alt="linkedin" /></a>
             </div>
             <div className='footer__social--legal'>
-                <p>Aviso legal | Protección de datos | Cookies</p>
+                <a>Aviso legal | </a>
+                <a> Protección de datos | </a>
+                <a>Cookies</a>
                 <p>Powered by <span>Attomo</span></p>
                 <p>© 2022 Alfa Real</p>
             </div>
